@@ -3,7 +3,7 @@ Sub-graph Contrast for Scalable Self-Supervised Graph Representation Learning (J
 
 
 ## Overview
-Here we provide an implementation of Subg-Con in PyTorch and Torch Geometric. The repository is organised as follows:
+Here we provide an implementation of Subg-Con in PyTorch and the geometric deep learning extension library, Pytorch Geometric. The repository is organised as follows:
 - `subgcon.py` is the implementation of the Subg-Con pipeline;
 - `subgraph.py` is the implementation of subgraph extractor;
 - `model.py` is the implementation of components for Subg-Con, including a GNN layer, a pooling layer, and a scoring function;
@@ -17,7 +17,7 @@ Finally, `train.py` puts all of the above together and may be used to execute a 
 ## Dependencies
 - Python 3.7.3
 - [PyTorch](https://github.com/pytorch/pytorch) 1.5.1
-- [torch_geometric](https://github.com/rusty1s/pytorch_geometric) 1.4.3
+- [pytorch_geometric](https://github.com/rusty1s/pytorch_geometric) 1.4.3
 - scikit-learn 0.23.2
 - scipy 1.5.2
 - cytoolz 0.10.0
